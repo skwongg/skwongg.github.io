@@ -10,15 +10,15 @@ li
 
   #format
     {
-      border-right: 1px solid black;
-      border-top: 1px solid black;
+      border-right: 1px solid white;
+      border-top: 1px solid white;
       padding: 10px 10px 10px 10px;
 
     }
 
   #format2
   {
-      border-top: 1px solid black;
+      border-top: 1px solid white;
   }
 
 .entries
