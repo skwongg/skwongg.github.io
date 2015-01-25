@@ -8,9 +8,6 @@ li
 
   }
 
-
-
-
   #format
     {
       border-right: 1px solid black;
@@ -28,39 +25,10 @@ li
   display:block;
 }
 
-#page
-{
-  background-color:lightblue;
-  color:white;
-}
 
-.nav
-  {
-    display:inline;
-    border: 1px solid #0000000;
-    font-size: 20px;
-    font-family:Arial;
-    padding:10px;
-    position:relative;
-    text-align:center;
-  }
 
-  #navbar
-    {
-      border: 1px solid white;
-      min-height:100%;
-      position:static;
-      width:100%;
-      text-align:center;
-      background-color:lightblue;
-    }
 
-#button
-{
-display:inline;
-border:2px solid white;
-padding: 10px;
-border-radius:100px;
-color:white;
-background-color:lightblue;
-}
+
+
+
+
