@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+  <title>Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet2.css">
+</head>
+<body>
+<div id="page">
+<div id="bannerbox">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDjKY_jiwhRBi1zEewQjhOwKYIzzEeazIspZtE7_BXeBz5KAw6Xg" height="100%" width="100%">
+</div>
+
+<div id="navbar">
+
+    <ul>
+        <li class="nav"><div id="button"><a href="http://skwongg.github.io/">Home</a></div></li>
+        <li class="nav"><div id="button"><a href="http://skwongg.github.io/blog/t2-css-design">Blog</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Portfolio</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Q&A</a></div></li>
+        <li class="nav"><div id="button"><a href="#">About Me</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Contact Me</a></div></li>
+        <li class="nav"><div id="button"><a href="http://google.com/">Search</a></div></li>
+    </ul>
+</div>
+
+
+<div id = "main">
+<table>
+    <tr>
+      <ul>
+        <td id="format">
+          <a href="http://skwongg.github.io/blog/t2-css-design#"> <li class="entries">CSS Design</li></a>
+          <a href="http://skwongg.github.io/blog/c1-chefs-kitchen"><li class="entries">DBC Cultural Blog</li></a>
+          <a href="http://skwongg.github.io/blog/t1-git-blog.html"><li class="entries">Version Control</li></a>
+          <a href="http://skwongg.github.io/blog/t3-arrays-hashes.html"><li class="entries">Arrays and Hashes</li></a>
+          <a href="http://skwongg.github.io/blog/c3-thinking-style.html"><li class="entries">Thinking Style Blog</li></a>
+        </td>
+
+
+
+      <td id="format2">
+      <main>
+        <h1>Arrays and Hashes</h1>
+        <h2>My current understanding.</h2>
+        <h4>January 30, 2015</h4>
+
+        <section>
+
+
+        </section>
+      </main>
+        <p>
+          Array = items referenced numerically [0…n]
+          Hash = items referenced by keys
+        </p>
+
+        <p>
+          Arrays and hashes have similar functionality in that they can store variables and allow for each variable to be accessed. It is the way in which the stored variables can be accessed that sets them apart. Arrays store variables in a numerical index starting from 0. The first element/variable in an array is at position 0.
+        </p>
+
+        <p>
+          So for an array named Ex_Array, Ex_Array[0] would be the first. The syntax to define an array and the first element could be:
+        </p>
+
+        <p>
+          Ex_Array = [a, b, c]
+          Ex_Array[0] = a
+          Ex_Array[1] = b
+          Ex_Array[2] = c
+        </p>
+
+        <p>
+          Ex_Hash = { "0" => a, "1" => b, "2" => c } #mirrors array
+          Ex_Hash = { "x" => elephant, "asdf" => donkey, "coffee"=> love}
+        </p>
+        <p>
+        In both examples above with calling the 0th position on Ex_Array or calling Ex_Hash with a "0" key, they would return "a". So what are the differences between the two, and which types of situations call for which?
+        </p>
+        <p>
+          From research on the internet, both methods can index things and get the job done, but as far as speed, efficiency and complexity, they can be very different. In an array, things are combed through in order based on index (0,1,2,3...etc.) whereas hashes are like subsets of indexes.
+        </p>
+        <p>
+          A similar example would be in describing the order of words in a dictionary. Imagine a dictionary that gave you an ordered list of words with their associated definitions and the only way you could access the word you needed was by going through each word individually in order until you arrived at the word you wanted.
+        </p>
+        <p>
+          A hash in the dictionary example would be that each hash key is represented by a letter in the dictionary (a,b,c...z). If you wanted to access words that start with the letter "A" you could do so via hash. In the dictionary example, each letter in the alphabet serves as a key to a specific hash, and within each hash is the indexed information (words that start with a particular letter).
+        </p>
+        <p>
+          In real world examples, one of the biggest advantages (based on my understanding) of hashes or the situations in which hashes can shine are in complex/gigantic data structures. There are situations in which organizing data based in several hashes may serve to be substantially faster than iterating through each item of an array. It is generally accepted that arrays are simpler to set up and equally functional in most instances to access data, however the differences in complexity/function are where hashes can shine.
+        </p>
+
+
+      </td>
+    </ul>
+    </tr>
+
+
+</table>
+
+</div>
+
+
+<div id="footer">
+
+  <a href="https://www.linkedin.com/pub/silas-kwong/5a/20b/a66/"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-linkedin-s_zpsyvypyhtt.png"/></a>
+  <a href="https://plus.google.com/109623742826368767268/posts/p/pub"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-googleplus-s_zpsgpgzaw2w.png"/></a>
+  <a href="https://twitter.com/SilasKwong"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-twitter-s_zpslrlgg9en.png"/></a>
+  <a href="https://github.com/skwongg"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-github-s_zpsdinzzeiz.png"/></a>
+</div>
+</div>
+
+
+</body>
