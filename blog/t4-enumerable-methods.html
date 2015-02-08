@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+  <title>Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet2.css">
+</head>
+<body>
+<div id="page">
+<div id="bannerbox">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDjKY_jiwhRBi1zEewQjhOwKYIzzEeazIspZtE7_BXeBz5KAw6Xg" height="100%" width="100%">
+</div>
+
+<div id="navbar">
+
+    <ul>
+        <li class="nav"><div id="button"><a href="http://skwongg.github.io/">Home</a></div></li>
+        <li class="nav"><div id="button"><a href="http://skwongg.github.io/blog/t2-css-design">Blog</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Portfolio</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Q&A</a></div></li>
+        <li class="nav"><div id="button"><a href="#">About Me</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Contact Me</a></div></li>
+        <li class="nav"><div id="button"><a href="http://google.com/">Search</a></div></li>
+    </ul>
+</div>
+
+
+<div id = "main">
+<table>
+    <tr>
+      <ul>
+        <td id="format">
+         <a href="http://skwongg.github.io/blog/t2-css-design#"> <li class="entries">CSS Design</li></a>
+          <a href="http://skwongg.github.io/blog/c1-chefs-kitchen"><li class="entries">DBC Cultural Blog</li></a>
+          <a href="http://skwongg.github.io/blog/t1-git-blog.html"><li class="entries">Version Control</li></a>
+          <a href="http://skwongg.github.io/blog/t3-arrays-hashes.html"><li class="entries">Arrays and Hashes</li></a>
+          <a href="http://skwongg.github.io/blog/c3-thinking-style.html"><li class="entries">Thinking Style Blog</li></a>
+        </td>
+
+
+
+      <td id="format2">
+      <main>
+        <h1>Enumerable Method</h1>
+        <h2>The #map method</h2>
+        <h4>February 6, 2015</h4>
+
+        <section>
+
+
+        </section>
+      </main>
+        <p>
+            Enumerable#map Method!
+          <br></br>
+          <br></br>
+        </p>
+
+        <p>
+            The map method takes an array and runs a block of code for each element in the object. An array is an object that stores other objects in a numerically indexed fashion. An example of an array would be ArrayExample = [1,2,3]. This example shows an array named "ArrayExample" which contains 3 elements in it. If we wanted to access each element, we would call them by their position. Array positions are indexed starting from zero, the Zero-th position is the first element of an array.
+
+            In ArrayExample, if we wanted to pull "1" out, we would use:
+            ArrayExample[0]. If we wanted to pull "2" out, we would use ArrayExample[1] and finally if we wanted to pull "3" out we would use ArrayExample[2].
+
+
+        </p>
+
+        <p>
+          The map method takes an array and applies a block of code to each individual element in the array.
+          Example
+          nums = [1,2,3]
+          nums.map { |x| x * x }
+                  output =>[1,4,9] in a new array.
+
+        </p>
+        <p> In the example above, the |x| defines the object being modified and the x*x represents the method being applied to each of the elements in the array. The {} represent the confines of the code block and represent where the code block starts and where it ends.</p>
+        <p>
+          There is also a destructive map! method in which modifies the original array.
+          Example
+          nums = [1,2,3]
+          nums.map! { |x| x * x }
+                  output =>[1,4,9] which modifies the original array.
+        </p>
+        <p>
+           The map method is kind of like an assembly line for code. The array being passed through the method are the parts being assembled. The final product comes out as the output which has been modified by the code block of the map method. Thanks for taking the time to read my blawg. :)
+
+        </p>
+
+      </td>
+    </ul>
+    </tr>
+
+
+</table>
+
+</div>
+
+
+<div id="footer">
+
+  <a href="https://www.linkedin.com/pub/silas-kwong/5a/20b/a66/"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-linkedin-s_zpsyvypyhtt.png"/></a>
+  <a href="https://plus.google.com/109623742826368767268/posts/p/pub"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-googleplus-s_zpsgpgzaw2w.png"/></a>
+  <a href="https://twitter.com/SilasKwong"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-twitter-s_zpslrlgg9en.png"/></a>
+  <a href="https://github.com/skwongg"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-github-s_zpsdinzzeiz.png"/></a>
+</div>
+</div>
+
+
+</body>
