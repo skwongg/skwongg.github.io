@@ -51,7 +51,7 @@
         </section>
       </main>
         <p>
-            Enumerable#map Method!
+            Enumerable #map Method!
           <br></br>
           <br></br>
         </p>
@@ -61,25 +61,32 @@
 
             In ArrayExample, if we wanted to pull "1" out, we would use:
             ArrayExample[0]. If we wanted to pull "2" out, we would use ArrayExample[1] and finally if we wanted to pull "3" out we would use ArrayExample[2].
-
-
         </p>
 
         <p>
           The map method takes an array and applies a block of code to each individual element in the array.
+          <br></br>
           Example
+          <br></br>
           nums = [1,2,3]
+          <br></br>
           nums.map { |x| x * x }
+          <br></br>
                   output =>[1,4,9] in a new array.
 
         </p>
         <p> In the example above, the |x| defines the object being modified and the x*x represents the method being applied to each of the elements in the array. The {} represent the confines of the code block and represent where the code block starts and where it ends.</p>
         <p>
           There is also a destructive map! method in which modifies the original array.
+          <br></br>
           Example
+          <br></br>
           nums = [1,2,3]
+          <br></br>
           nums.map! { |x| x * x }
+          <br></br>
                   output =>[1,4,9] which modifies the original array.
+                  <br></br>
         </p>
         <p>
            The map method is kind of like an assembly line for code. The array being passed through the method are the parts being assembled. The final product comes out as the output which has been modified by the code block of the map method. Thanks for taking the time to read my blawg. :)
