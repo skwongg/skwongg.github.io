@@ -64,6 +64,7 @@
          Test-Driven Development is probably one of the most surprisingly awesome things I've encountered thus far into programming/coding. I initially thought tests were simply the crutches/walkers of the developer world for beginners. I soon found out some of its purpose and given some proper perspective.
         </p>
 
+
         <p>
           I was initially irked and annoyed by the concept of TDD because it seemed as though it was completely unnecessary and an afterthought if you were coding. It didn't make sense to me initially to write the tests first because you could have spent the time writing the actual code.
         </p>
@@ -71,13 +72,18 @@
         <p>
           It wasn't until I was formally introduced to TDD by a professional developer that I gained an appreciation for the process. The testing process creates a framework in which you can coherently compose your code and receive instant feedback (via errors/tests) so that you can break down large problems into smaller bits. It also makes it so that there is a logical chronological order in which you could reference. If the existing code you had a moment ago was working with zero errors and there is an error now, your newest implementation is the problem.
         </p>
-
         <p>
-        Another benefit of TDD is with respect to debugging. If tests reflect the functions that summate to the entirety of the program, if there are errors or bugs, the tests provide a clue as to where the bug stems from. With TDD, you gain an extra troubleshooting tool for when there's a bug or an unexpected output.
+          So onto the process: The first step to TDD is to explicitly determine what your code is supposed to be doing. When you have an idea of that, you write a test for that requirement. Your test (ie: driver test, rspec, or ruby's built-in test features) should be specific to your code and initially it should result in a fail. With the failed test, you want to implement the code in which your test was written for. If you did things appropriately and the code works as you imagined, the test should have passed. Once your tests all pass, you want to take the opportunity to refactor your code efficiently. After refactoring, you begin to write the tests for the next set of code and the cycle starts over again. In the end you will have working code, a documented process and an illustrative framework for debugging and troubleshooting should anything unexpected occur in the future.
         </p>
 
         <p>
-          TDD on a high level in my opinion is a process to sort and organize code very deliberately and seconds as a troubleshooting tool. It explicitly lays out and defines the requirements you are trying to implement into your code. Thanks for reading!
+          <img src="http://agilefragile.com/sites/default/files/field/image/test-driven-development.png" height=400px width=400px>
+        </p>
+
+
+
+        <p>
+        One of the largest benefits of TDD is with respect to debugging. If tests reflect the functions that summate to the entirety of the program, bugs and errors can be found (sometimes) via the tests. The tests provide clues as to where the bugs stems from to give you (or your colleagues) an idea of where to start. With TDD, you gain a troubleshooting tool for when there's a bug. Thanks for reading!
         </p>
 
 
