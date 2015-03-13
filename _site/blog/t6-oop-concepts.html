@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>
+  <title>Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet2.css">
+</head>
+<body>
+<div id="page">
+<div id="bannerbox">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDjKY_jiwhRBi1zEewQjhOwKYIzzEeazIspZtE7_BXeBz5KAw6Xg" height="100%" width="100%">
+</div>
+
+<div id="navbar">
+
+    <ul>
+        <li class="nav"><div id="button"><a href="http://skwongg.github.io/">Home</a></div></li>
+        <li class="nav"><div id="button"><a href="http://skwongg.github.io/blog/t2-css-design">Blog</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Portfolio</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Q&A</a></div></li>
+        <li class="nav"><div id="button"><a href="#">About Me</a></div></li>
+        <li class="nav"><div id="button"><a href="#">Contact Me</a></div></li>
+        <li class="nav"><div id="button"><a href="http://google.com/">Search</a></div></li>
+    </ul>
+</div>
+
+
+<div id = "main">
+<table>
+    <tr>
+      <ul>
+        <td id="format">
+        <a href="http://skwongg.github.io/blog/c1-chefs-kitchen"><li class="entries">DBC Cultural Blog</li></a>
+          <a href="http://skwongg.github.io/blog/t1-git-blog.html"><li class="entries">Version Control</li></a>
+          <a href="http://skwongg.github.io/blog/t2-css-design#"> <li class="entries">CSS Design</li></a>
+          <a href="http://skwongg.github.io/blog/c3-thinking-style.html"><li class="entries">Thinking Style Blog</li></a>
+          <a href="http://skwongg.github.io/blog/t3-arrays-hashes.html"><li class="entries">Arrays and Hashes</li></a>
+          <a href="http://skwongg.github.io/gps21/gps1-2.html"><li class ="entries">GPS 2.1</li></a>
+          <a href="http://skwongg.github.io/blog/c4-tech-issues.html"><li class ="entries">Tech Industry Issues</li></a>
+          <a href="http://skwongg.github.io/blog/t4-enumerable-methods.html"><li class ="entries">The Enumerable Map Method</li></a>
+          <a href="http://skwongg.github.io/blog/c5-feedback.html"><li class ="entries">Pairing and Giving Feedback</li></a>
+          <a href="http://skwongg.github.io/blog/t5-ruby-classes.html"><li class ="entries">Ruby Classes</li></a>
+          <a href="http://skwongg.github.io/blog/c6-stereotype-threat.html"><li class ="entries">Stereotype Threat</li></a>
+          <a href="http://skwongg.github.io/blog/t6-oop-concepts.html"><li class ="entries">Object Oriented vs. Functional Programming</li></a>
+          <a href="http://skwongg.github.io/blog/c7-values.html"><li class ="entries">Affirmation</li></a>
+          <a href="http://skwongg.github.io/blog/t7-JavaScript.html"><li class ="entries">Comparing JavaScript to Ruby on Rails</li></a>
+        </td>
+
+
+
+      <td id="format2">
+      <main>
+        <h1>Object Oriented Programming</h1>
+        <h2></h2>
+        <h4>February 19, 2015</h4>
+
+        <section>
+
+
+        </section>
+      </main>
+
+        <p>
+          In the following, I hope to discuss two different approaches to programming which are Object Oriented Programming and Functional Programming. Both languages are very capable of producing programs that are functional and efficient. The argument of speed, maintainability and so forth in regards to either being superior are typically in extreme use cases or not universally true. Instead of thinking in terms of black or white, I'd like to take the discussion to be within the continuum in between, I'd like to steer the discussion towards... the 50 or so shades of grey.
+        </p>
+
+        <p>
+          From the research in which I conducted, neither Object Oriented Programming nor Functional Programming are required to be completely mutually exclusive of each other. Thus far I have had the most experience with ruby and despite it being an object-oriented language, I can see functional components and methodologies that could work well in ruby. I think that recognizing the differences within the context of the programmer's abilities is more important than pointing out contextual differences. There are many online posts that suggest one programming style to be superior to the other for specific use cases, but never a poster who claims that the other style can't accomplish the same thing.
+        </p>
+
+        <p>
+          Object oriented programs are typically built from the top down, starting with the class, variables, methods and so forth to build the details necessary. Object oriented programming is well suited for applications that can capitalize on its prebuilt object/class structures. If the purpose of the application is to organize, repackage and repurposify data (as with many websites we use daily!), object oriented programming may be convenient because the framework is already built-in.
+        </p>
+
+        <p>
+          Functional programming on the other hand builds the program up from the bottom up, building small functions that can be combined into other functions to solve larger problems. Additionally, since functional programming generally emphasizes NOT modifying things, you can typically implement earlier pieces of code seamlessly since their functionality is more or less static (unchanged/unmodified).
+        </p>
+
+
+        <p>
+          Next we have style, the paradigm in which your code follow determine what principle nature your code follows. In Functional Programming, it is taboo to rename or redefine functions, instead you create new functions and store them. And instead of appending value indexes etc., there is an inclination towards creating a new value to reflect the changes.
+        </p>
+        <br></br>
+        <p>Example1</p>
+        <p>
+              Object Oriented Programming
+            <br>
+              dog = ["lassy", "spot", "blue"]
+            </br>
+              dog << ["dawg"]
+            <br></br>
+              Functional Programming
+            <br>
+              dog = ["lassy", "spot", "blue"]
+            </br>
+              dogs = dog + ["dawg"]
+        </p>
+        <br></br>
+
+
+        <p>Example2</p>
+        <p>
+              Object Oriented Programming:
+            <br></br>
+              hash = {:potatoes => "browns", :yolo => "sweggerella"}
+            <br>
+              hash[:bro => "swol"]
+            </br>
+              hash
+        </p>
+        <br></br>
+
+        <p>
+            <br>Functional Programming:</br>
+            <br>
+            hash = {:potatoes => "browns", :yolo => "sweggerella"}
+            </br>
+            new_hash = hash.merge(:bro => "swol")
+        </p>
+
+        <p>
+          Though the differing programming types result in the same output, they represent different perspectives on code. Object oriented programming is very convenient for its predefined classes, methods, instance variables and capturing the interaction between these things by calling methods on them. Since nearly everything in ruby is an object, programming in ruby simply becomes creating methods to appropriately connecting and referencing the objects.
+        </p>
+        <p>
+          Methods in ruby in which we have become familiar such as map, select, inject, standard if/elsif/else statements and a handful of other ruby techniques are accepted as the functional parts of ruby. The conflict between object oriented programming and functional programming paradigms lies in changing states of objects, the changing (appended/modified) variables, and complexity of syntax. As of currently, I am not well-versed in either to pick a side, so with that I bid you adieu!
+        </p>
+
+        <p>
+          <img src="http://media.giphy.com/media/kNGHx5m4QPra0/giphy.gif" alt="Mountain View" style="width:304px;height:228px">
+        </p>
+
+      </td>
+    </ul>
+    </tr>
+
+
+</table>
+
+</div>
+
+
+<div id="footer">
+
+  <a href="https://www.linkedin.com/pub/silas-kwong/5a/20b/a66/"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-linkedin-s_zpsyvypyhtt.png"/></a>
+  <a href="https://plus.google.com/109623742826368767268/posts/p/pub"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-googleplus-s_zpsgpgzaw2w.png"/></a>
+  <a href="https://twitter.com/SilasKwong"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-twitter-s_zpslrlgg9en.png"/></a>
+  <a href="https://github.com/skwongg"><img src="http://i146.photobucket.com/albums/r274/dagle/webicon-github-s_zpsdinzzeiz.png"/></a>
+</div>
+</div>
+
+
+</body>

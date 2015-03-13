@@ -1,0 +1,36 @@
+li
+  {
+    display:inline;
+    border: 2px solid #0000000;
+    font-size: 20px;
+    padding:10px;
+    position:relative;
+
+  }
+
+  #format
+    {
+      border-right: 1px solid white;
+      border-top: 1px solid white;
+      padding: 10px 10px 10px 10px;
+
+    }
+
+  #format2
+  {
+      border-top: 1px solid white;
+  }
+
+.entries
+{
+  display:block;
+  width:100px;
+}
+
+
+
+
+
+
+
+

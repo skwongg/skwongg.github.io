@@ -1,0 +1,94 @@
+<!--
+Write your names here:
+1. Silas
+2. Lawrence
+We spent [#] hours on this challenge.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="#">  <!-- Insert a link to the stylesheet here -->
+    <title>Title Here</title>
+  </head>
+
+  <body>
+<header>This is a Header</header>
+      <div>
+        <h1>Pair Programming Discussion</h1>
+      </div>
+
+      <div>
+        <h3> By: Lawrence Yu and Silas Kwong</h3>
+      </div>
+
+      <div id="container">
+
+       <div id="box1" class="box">
+         <h4>What is pair programming?</h4>
+          <p>Pair programming is where two programmers work together on a program with one person as a driver and the other a navigator.</p></div>
+
+       <div id="box2" class="box">
+         <h4>Why is pair programming important?</h4>
+         <p>It is important working in pairs to have someone collaborating and checking your work.</p></div>
+
+       <div id="box3" class="box">
+         <h4>Compare driver and navigator?</h4>
+          <p>Driver writes the code while the navigator directs what the driver should be focusing on. Its a give and take relationship!</p></div>
+
+      </div>
+</body>
+      <div id="footer">
+        <p>copyright 2015</p>
+      </div>
+      <!-- Add your reflection here. -->
+
+</html>
+
+
+<style>
+        *{
+          margin:0;
+          padding:0;
+        }
+
+        h1 {
+          font-family: "Courier New", Courier, monospace;
+        }
+
+        h3 {
+          font-family:"Cambria";
+        }
+
+        p {
+          color: black;
+        }
+
+        #container{
+            background: green;
+            width:90%;
+            marin:auto;
+            border:1px solid #333;
+        }
+
+        #container .box{
+        display:inline-block;
+        height:600px;
+        background:green;
+        width:90%;
+        border:1px solid #333;
+        margin:5px;
+        }
+
+        #container #box1{
+          width:30%;
+        }
+
+        #container #box2{
+          width:30%;
+        }
+
+        #container #box3{
+          width:30%;
+        }
+</style>

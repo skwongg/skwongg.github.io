@@ -1,0 +1,171 @@
+min-height:100%;
+    height:auto !important;
+    height:100%;
+
+#bannerbox{
+width: 100%;
+text-align: center;
+height:200px;
+background-color:black;
+
+}
+
+#navbar
+    {
+      border: 1px solid black;
+      position:relative;
+      text-align:center;
+      background-color:gray;
+      background-image: url("https://lh3.googleusercontent.com/_HMHqFOdk2f6SYnRsRXB3jk9lTZkYYRk4BkULvb9dA8Zl17Rl9JQEz3od3cLZGPdqAaEmKL1DFw=w2382-h998");
+    }
+
+.nav
+  {
+    display:inline;
+    /*border: 1px solid #0000000;*/
+    font-size: 20px;
+    font-family:Arial;
+    padding:10px;
+    position:relative;
+    text-align:center;
+  }
+
+
+
+
+#main{
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+
+#format, #format2{
+      /*border: 1px solid white;*/
+      float: left;
+      min-height: 450px;
+      color: white;
+      padding: 10px;
+
+}
+
+#format
+    {
+      width: 19.99%;
+      background-color: #777;
+}
+
+#format2
+    {
+      width: 80%;
+      background-color: #111;
+}
+
+
+.entries
+{
+position: relative;
+
+}
+
+
+#page
+{
+
+    margin:0;
+}
+
+body
+{
+  margin:0;
+  padding:0;
+  width:1000px;
+
+}
+
+#footer {
+  width:100%;
+  height:20px;
+  bottom:0;
+  background-color:black;
+  color:white;
+  padding:5px;
+}
+
+
+table
+{
+min-height:1450px;
+
+}
+
+#button
+{
+display:inline;
+border:2px solid white;
+padding: 10px;
+border-radius:100px;
+color:white;
+
+}
+
+tr
+{
+  vertical-align:top;
+}
+
+#box2
+{
+  display:inline-block;
+  height:100px;
+  width:50%;
+}
+
+
+/*#bannerbox
+    {
+      position:relative;
+      border:1px solid white;
+      text-align:center;
+      width:100%;
+      height:240px;
+    }*/
+
+
+
+.nav
+  {
+    display:inline;
+    border: 1px solid #0000000;
+    font-size: 20px;
+    font-family:Arial;
+    padding:10px;
+    position:relative;
+    text-align:center;
+  }
+
+
+
+#button
+      {
+      display:inline;
+      border:2px solid white;
+      padding: 10px;
+      border-radius:100px;
+      color:white;
+      }
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited{
+  color:white;
+}
